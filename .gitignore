@@ -1,0 +1,86 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# ── Virtual Environments ─────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+.envrc
+pip-selfcheck.json
+
+# ── Credentials & Secrets ────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.mail
+!/.env.example
+*.pem
+*.key
+*.pub
+*.crt
+*.p12
+*.pfx
+secrets/
+*credential*.json
+*service-account*.json
+.python-version
+
+# ── IDEs & Editors ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.project
+.pydevproject
+.settings/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ── Testing & Code Coverage ──────────────────────────────────────────────────
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+.tox/
+.nox/
+.hypothesis/
+
+# ── Build & Distributions ────────────────────────────────────────────────────
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ── Logs & Runtime Caches ────────────────────────────────────────────────────
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+*.db
+.adk/
+rss_agent/.adk/
